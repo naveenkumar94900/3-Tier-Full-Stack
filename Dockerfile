@@ -1,7 +1,7 @@
 # Use Node 18 as parent image
 FROM node:18
 
-# Change the working directory on the Docker image to /app
+# Change the working directory on the Docker image to /app this is working directory
 WORKDIR /app
 
 # Copy package.json and package-lock.json to the /app directory
